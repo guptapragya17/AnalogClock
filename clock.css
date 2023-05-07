@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(178, 228, 228);
+}
+#clockcontainer{
+    position: relative;
+    margin-left: 35%;
+    margin-top: 10%;
+    
+   
+    height: 30vw;
+    width: 30vw;
+    background: url(clock.png) ;
+    /* beech me lane ke liye ghadi ko */
+    background-size: 100%;          
+    position: absolute;
+    
+    
+}   
+#hour, #minute, #second{
+    position: absolute;
+    background: rgb(157, 5, 5);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 2%;
+    height: 18%;
+    top: 34%;
+    left: 49%;
+    opacity: 0.8;
+    
+     /* display: none;  hide  this to set other */
+}
+
+#minute{
+    width: 1.4%;
+    height: 25%;
+    top: 27%;
+    left: 49%;
+    opacity: 0.8;
+    /* display: none;  hide  this to set other */
+   
+
+}
+#second{
+    width: 1%;
+    height: 25%;
+    top: 28%;
+    left: 49%;
+    opacity: 0.8;
+    
+ /* display: none;  hide  this to set other */
+}
+
